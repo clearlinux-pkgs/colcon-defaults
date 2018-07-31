@@ -4,7 +4,7 @@
 #
 Name     : colcon-defaults
 Version  : 0.2.0
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/8c/e7/34f217ea8c75c53e59164242ea480defd7548466815acf9d903b3e6f2bc7/colcon-defaults-0.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8c/e7/34f217ea8c75c53e59164242ea480defd7548466815acf9d903b3e6f2bc7/colcon-defaults-0.2.0.tar.gz
 Summary  : Extension for colcon to read defaults from a config file.
@@ -13,6 +13,7 @@ License  : Apache-2.0
 Requires: colcon-defaults-python3
 Requires: colcon-defaults-python
 Requires: PyYAML
+Requires: colcon-core
 BuildRequires : buildreq-distutils3
 
 %description
@@ -44,7 +45,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532980505
+export SOURCE_DATE_EPOCH=1533002400
 python3 setup.py build -b py3
 
 %install

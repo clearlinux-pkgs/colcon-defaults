@@ -1,5 +1,5 @@
 PKG_NAME := colcon-defaults
-URL = https://files.pythonhosted.org/packages/18/e2/73754aa6fadf31b56656d6cb467bce159961b29a810820e8d37b8843a17e/colcon-defaults-0.2.1.tar.gz
+URL = https://files.pythonhosted.org/packages/11/89/a62d304e1d3eb926af72481ed5152bf85c0c933c11e08b3773ea974a5fa8/colcon-defaults-0.2.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
